@@ -1,0 +1,23 @@
+.image-viewer canvas {
+    width: 300px;
+    height: 150px;
+}
+body {
+
+    background-color: green;
+}
+.image-viewer-options button {
+    height: 33px;
+    width: 200px;
+    cursor: pointer;
+    border: solid 1px $green;
+    background-color: $accent-green;
+    font-size: 16px;
+    color: white;
+    border-radius: 3px;
+
+    &:hover {
+        background-color: $lighter-grey;
+        border: solid 1px $grey;
+    }
+}
